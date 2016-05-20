@@ -1,0 +1,19 @@
+// Externals
+@import "externals/reset";
+@import "externals/bootstrap";
+@import "externals/font-awesome";
+// Tools
+@import "tools/variables";
+@import "tools/mixins";
+@import "tools/keyframes-animations";
+// Global style
+@import "views/global";
+// Views
+@import "views/header";
+@import "views/footer";
+@import "views/welcome-page";
+@import "views/homepage";
+// Elements
+@import "views/modal";
+// Override
+@import "views/override";

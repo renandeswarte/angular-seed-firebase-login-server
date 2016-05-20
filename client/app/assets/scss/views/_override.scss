@@ -1,0 +1,24 @@
+// Override Global Buttons style
+.btn.active,
+.btn-primary {
+  background-color: $secondaryColor !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: $whiteColor;
+}
+.btn.inactive {
+  background-color: $lightGreyColor !important;
+}
+.btn-secondary,
+.btn.update {
+  color: $whiteColor;
+  background-color: $greenColor;
+}
+.btn.delete {
+  color: $whiteColor;
+  background-color: $redColor;
+}
+.btn.warning {
+  border: none !important;
+  box-shadow: none !important;
+}
